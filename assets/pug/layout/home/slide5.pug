@@ -1,0 +1,49 @@
+.clear  
+.content
+  .wrap
+    .contact
+      .section.group
+        .col.span_1_of_3
+          .contact_info
+          .company_address
+            h3 Company Information :
+            p address,
+            p street address,
+            p Pokhara, Nepal
+            p Phone:(061) 5XXXXX
+            p Fax: (000) 00000000
+            p
+              | Email: 
+              span info@hotelid.com
+            p
+              | Follow us on: 
+              span Facebook
+              | , 
+              span Twitter
+        .col.span_2_of_3
+          .contact-form
+            h3 Contact Us
+            form(method='post' action='contact-post.html')
+              div
+                span
+                  label FULL NAME
+                span
+                  input.textbox(name='userName' type='text')
+              div
+                span
+                  label E-MAIL ID
+                span
+                  input.textbox(name='userEmail' type='text')
+              div
+                span
+                  label MOBILE NUMBER
+                span
+                  input.textbox(name='userPhone' type='text')
+              div
+                span
+                  label SUBJECT
+                span
+                  textarea(name='userMsg')  
+              div
+                span
+                  input(type='submit' value='Submit')

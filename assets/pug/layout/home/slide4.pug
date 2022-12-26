@@ -1,0 +1,64 @@
+.clear  
+.content
+  .wrap
+    .gallerys
+      h3 gallery
+      .gallery-grids
+        .gallery-grid
+          a(href='images/slider1.jpg')
+            img(src='images/slider1.jpg' alt='')
+          h4 DELUXE ROOM
+          p $150.00 / per night
+          .gallery-button
+            a(href='#') Read More
+        .gallery-grid.grid2
+          a(href='images/slider3.jpg')
+            img(src='images/slider3.jpg' alt='')
+          h4 LUXURY ROOM
+          p $200.00 / per night
+          .gallery-button
+            a(href='#') Read More
+        .gallery-grid
+          a(href='images/img_4.jpg')
+            img(src='images/img_4.jpg' alt='')
+          h4 SINGLE ROOM
+          p $255.00 / per night
+          .gallery-button
+            a(href='#') Read More
+        .clear  
+      .clear  
+      .gallery-grids
+        .gallery-grid
+          a(href='images/img_1.jpg')
+            img(src='images/img_1.jpg' alt='')
+          h4 STANDARD ROOM
+          p $350.00 / per night
+          .gallery-button
+            a(href='#') Read More
+        .gallery-grid.grid2
+          a(href='images/img_2.jpg')
+            img(src='images/img_2.jpg' alt='')
+          h4 FAMILY ROOM
+          p $400.00 / per night
+          .gallery-button
+            a(href='#') Read More
+        .gallery-grid
+          a(href='images/img_3.jpg')
+            img(src='images/img_3.jpg' alt='')
+          h4 SINGLE ROOM
+          p $155.00 / per night
+          .gallery-button
+            a(href='#') Read More
+      script(type='text/javascript' src='js/jquery.lightbox.js')
+      link(rel='stylesheet' type='text/css' href='css/lightbox.css' media='screen')
+      script(type='text/javascript').
+        $(function() {
+        $('.gallery-grid a').lightBox();
+        });
+      .clear  
+      .projects-bottom-paination
+        ul
+          li.active
+            a(href='#') 1
+          li
+            a(href='#') 2
