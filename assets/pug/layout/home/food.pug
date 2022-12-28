@@ -1,0 +1,143 @@
+doctype html
+head
+  title 3D Menu
+  link(rel='shortcut icon' href='../favicon.ico')
+  link(rel='stylesheet' type='text/css' href='css/stylemenu.css')
+  link(href='http://fonts.googleapis.com/css?family=Raleway:300,500|Arvo:700' rel='stylesheet' type='text/css')
+  script(type='text/javascript' src='js/modernizr.custom.79639.js')
+.container
+  .codrops-top
+    a(href='#')
+      | Developed By Codrops
+    span.right
+      a(href='http://www.flickr.com/photos/hisgett/369087090/sizes/m/in/photostream/') Restaurant image by ahisgett
+  header
+    h1 3D Menu Hotel
+    h2
+      | A responsive folded flyer-like restaurant menu with some 3D, featuring recipes from Michael Natkin from 
+      a(href='http://herbivoracious.com/') herbivoracious.com
+      span.demo-note Your current viewport size shows the simplified version
+    .support-note
+      // let's check browser support with modernizr
+      span.no-cssanimations CSS animations are not supported in your browser
+      span.no-csstransforms CSS transforms are not supported in your browser
+      span.no-csstransforms3d CSS 3D transforms are not supported in your browser
+      span.no-csstransitions CSS transitions are not supported in your browser
+      span.note-ie Sorry, only modern browsers.
+  section.main
+    #rm-container.rm-container
+      .rm-wrapper
+        .rm-cover
+          .rm-front
+            .rm-content
+              .rm-logo
+              h2 Gourmet Castle
+              h3 Fine Dining &amp; Gourmet Takeaway
+              a.rm-button-open(href='#') View the Menu
+              .rm-info
+                p
+                  strong Gourmet Castle Restaurant
+                  br
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;246 Wonderful Paradise Ln.
+                  br
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Pasadena, CA 91101
+                  br
+                  strong Phone
+                  |  626.511.1170
+                  br
+                  strong Fax
+                  |  626.992.1020
+          .rm-back
+            .rm-content
+              h4 Appetizers
+              dl
+                dt Bella&apos;s Artichokes
+                dd Roasted artichokes with chipotle aioli and cream cheese
+                dt Bruschetta Blue Delight
+                dd Blue cheese and citrus bruschetta
+                dt Pomme Dulse
+                dd Baked potatoes with crisped dulse
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2011/11/crostini-with-young-pecorino-grilled-figs-and-arugula-mint-pesto-recipe.html' data-thumb='images/1.jpg') Green Love Crostini
+                dd Crostini with young pecorino, grilled figs and arugula &amp; mint pesto
+                dt Focaccia di Carciofi
+                dd Artichoke focaccia with fresh thyme
+              h4 Salads &amp; More
+              dl
+                dt Green Delight
+                dd Watercress, frisee and avocado salad
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2010/02/thai-tofu-salad-recipe.html' data-thumb='images/13.jpg') Gourmet Yam Taohu
+                dd Thai tofu salad yam taohu
+                dt Panini Deluxe
+                dd Buffalo mozzarella basil panini
+            .rm-overlay
+        .rm-middle
+          .rm-inner
+            .rm-content
+              h4 Main Courses
+              dl
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2009/03/panfried-gnocchi-with-arugula-recipe.html' data-thumb='images/11.jpg') Crispy Gnocchi with Arugula
+                dd Pan-fried potato gnocchi with arugula salad
+                dt Sea Palm Spicy Peanut Curry
+                dd
+                  | Tender sea palm noodles, seasoned vegetables, spicy peanut curry and tempeh fenel croquettes
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2012/09/caviar-lentil-salad-with-arugula-crispy-shallots-and-roasted-garlic-recipe.html' data-thumb='images/8.jpg') Lentil Caviar &amp; Arugula
+                dd Black lentil curry with arugula salad, caramelized shallots and roasted garlic
+                dt Tamari-Maple Glazed Tofu
+                dd Wasabi emulsion, sesame seeds and scallions
+                dt Maple Barbeque Tofu
+                dd
+                  | Grilled marinated tofu, maple barbeque sauce, tahini slaw, grilled seasonal vegetables and mashed potatoes
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2012/07/king-oyster-mushroom-with-roasted-cherries-and-sage-no-that-isnt-meat-recipe-and-thought-process.html' data-thumb='images/4.jpg') Luxur Oyster
+                dd King oyster mushroom with roasted cherries and sage
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2012/09/rigatoni-with-roasted-cauliflower-and-spicy-tomato-sauce-recipe.html' data-thumb='images/3.jpg') Rigatoni di Cavolfiore
+                dd Rigatoni with roasted cauliflower and spicy tomato sauce
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2012/06/saffron-chickpea-stew-with-grilled-porcini-mushroom-recipe.html' data-thumb='images/14.jpg') Saffron Chana Secret
+                dd Saffron chickpea stew with grilled porcini mushrooms
+            .rm-overlay
+        .rm-right
+          .rm-front
+          .rm-back
+            span.rm-close Close
+            .rm-content
+              h4 Desserts
+              dl
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2012/08/crepes-with-roasted-french-plums-yogurt-and-honey.html' data-thumb='images/5.jpg') French Plum Crepes
+                dd Crepes with roasted french plums, yogurt &amp; honey
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2012/05/butterscotch-pudding-with-bittersweet-ganache-and-caramelize-white-chocolate-crunchies-recipe.html' data-thumb='images/6.jpg') Butterscotch Pudding
+                dd
+                  | Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2009/12/gateaux-de-crepes-recipe.html' data-thumb='images/12.jpg') Chocolate G&acirc;teau de Cr&ecirc;pes
+                dd G&acirc;teau de cr&ecirc;pes with chocolate pastry cream and dulce de leche
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2009/05/dutch-baby-with-sauteed-apples-giant-ovenbaked-pancakes-recipe.html' data-thumb='images/10.jpg') Dutch Baby With Sauteed Apples
+                dd Dutch ginat oven-baked pancakes with sauteed apples
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2008/08/blueberry-napol.html' data-thumb='images/7.jpg') Blueberry Napoleon
+                dd Blueberry Napoleon with cr&egrave;me fra&icirc;che and raspberry powder
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2008/09/rings-of-saturn.html' data-thumb='images/2.jpg') Rings of Saturn
+                dd Saturn peach on challah french toast
+                dt
+                  a.rm-viewdetails(href='http://herbivoracious.com/2008/04/recipe-atayef.html' data-thumb='images/9.jpg') Classic Atayef
+                dd Syrian ricotta-filled dessert pancakes
+              .rm-order
+                p
+                  strong Would you like us to cater your event?
+                  |  Call us &amp; we&apos;ll help you find a venue and organize the event: 
+                  strong 626.511.1170
+script(type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js')
+script(type='text/javascript' src='js/menu.js')
+script(type='text/javascript').
+  $(function() {
+  Menu.init();
+  });
