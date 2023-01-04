@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* reset */
 /* start editing from here */
 /* text align right */
@@ -12,6 +13,8 @@
 /* vertical align top */
 /* vertical menu */
 /* horizontal menu */
+/* Bắt đầu Stick Nav */
+/* Kết thúc Stick Nav */
 /*end reset*/
 /*=============================
  * start-wrap
@@ -845,6 +848,22 @@ nav.vertical ul li {
 
 nav.horizontal ul li {
   display: inline-block;
+}
+
+sticknav {
+  background: #ffffff;
+  height: 30px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  left: 0px;
+  right: 0px;
+  position: relative;
+  z-index: 9999;
+}
+
+.fixed {
+  position: fixed;
 }
 
 .wrap {

@@ -28,6 +28,8 @@ $font-family_2: Arial, Helvetica, sans-serif;
 /* vertical align top */
 /* vertical menu */
 /* horizontal menu */
+/* Bắt đầu Stick Nav */
+/* Kết thúc Stick Nav */
 /*end reset*/
 /*=============================
  * start-wrap
@@ -779,6 +781,20 @@ nav.horizontal {
 			display: inline-block;
 		}
 	}
+}
+sticknav {
+	background: #ffffff;
+	height: 30px;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	left: 0px;
+	right: 0px;
+	position: relative;
+	z-index: 9999;
+}
+.fixed {
+	position: fixed;
 }
 .wrap {
 	width: 80%;
